@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>play pad</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -16,19 +16,18 @@
                 <li><a href="">Services</a></li>
                 <li><a href="">Contact Us</a></li>
             </ul>
-            <button>Read Reviews</button>
+            <button >Read Reviews</button>
         </div>
     </header>
 
-
-    <section class="top-section">
+    <section id="top-section">
         <div class="left-grid">
-            <p>Discover the hottest games. unfiltered reviews. real talk</p>
-            <p>From AAA titles to indie gems - we play, rate, and break it down for you</p>
+          <span class="first-paragraph"><p>Discover the hottest games. <br> unfiltered reviews. <br> real talk</p></span>
+            <span class="second-paragraph"><p>From AAA titles to indie gems - we play, rate, <br> and break it down for you</p></span>
             <button>Read Review</button>
         </div>
         <div class="right-grid">
-            <img src="" alt="">
+            <img src="game controler.jpg" alt="playstation controller">
         </div>
     </section>
 
@@ -37,70 +36,94 @@
         <h2 class="section_title">Featured Games</h2>
         <div class="cards">
             <div class="card">
-                <img src="" alt="">
+                <img src="miecraft.jpg" alt="">
                 <h4>Minecraft</h4>
-                <p>colorful and fun. Is it worth the hype?</p>
+                <p>colorful and fun. Is it worth the <br> hype?</p>
                 <a href="">See reviews</a>
             </div>
             <div class="card">
-                <img src="" alt="">
+                <img src="call of duty.jpg" alt="">
                 <h4>Call of Duty</h4>
-                <p>Fast-paced and intense.But is it the worth hype</p>
+                <p>Fast-paced and intense.But is it <br> worth the hype? </p>
                 <a href="">See reviews</a>
             </div>
             <div class="card">
-                <img src="" alt="">
+                <img src="fortnite.jpg" alt="">
                 <h4>Fortnite OG</h4>
-                <p>Nostalgia meets chaos. Here's our breakdown </p>
+                <p>Nostalgia meets chaos. Here's <br>  our breakdown </p>
                 <a href="">See reviews</a>
             </div>
         </div>
 
-        <div>
+        <div class="card-view">
             <a href="View all Games ">View all Games</a>
         </div>
     </section>
 
     
-    <section class="about-us">
+    <section id="about-us">
         <h2>About US</h2>
         <div class="About-us-grid">
-            <div class="left-grid">
-                <img src="" alt="">
+            <div id="left-grid">
+                <img src="controller.jpg" alt="">
             </div>
-            <div class="right-grid">
-                <p>We’re Just Gamers Like You</p>
-                <p>PlayPad was created by a group of teen gamers who love diving deep into games and sharing honest,
-                     no-BS reviews. Whether you're into button-mashing chaos or slow-burn storylines, there's something here for you.</p>
-                <p>We believe gaming is more than just a hobby — it’s a way to connect, 
-                    compete, and escape. Our goal is to build a space where teen gamers can discover new titles, share opinions, and celebrate the culture we all love.
-                     No gatekeeping. Just real talk from real players</p>
+            <div id="right-grid">
+                <p class="first-text">We’re Just Gamers Like You</p>
+                <p class="second-text">PlayPad was created by a group of teen gamers who love <br> diving deep into games and sharing honest,
+                     no-BS reviews. <br> Whether you're into button-mashing chaos or slow-burn <br> storylines, there's something here for you.</p>
+
+                <p class="third-text">We believe gaming is more than just a hobby — it’s a way to <br> connect, 
+                    compete, and escape. Our goal is to build a space <br> where teen gamers can discover new titles, share opinions, and <br> celebrate the culture we all love.
+                     No gatekeeping. Just real talk <br> from real players</p>
             </div>
         </div>
     </section>
 
-    <section class="contact-us">
-        <div class="left-grid">
+    <section id="contact-us">
+      <div class="contact-grid">
+        <div class="first-grid">
             <h2>Contact Us</h2>
-            <p>Got a game we should review? wanna colab on blog pst Hit us up!</p>
+            <p>Let's Talk Games <br>
+            Got a game we should review ?Wanna collab <br>
+            on a blog post</p>
         </div>
-        <div class="right-grid">
+        <div class="second-grid">
             <form action="">
-                <div class="">
-                    <label for="name">Your name</label><br>
-                    <input type="text" placeholder="your name">
+                <div>
+                    <label class="form-label" for="name">Your name</label><br>
+                    <input type="text"class="form-input" placeholder="your name">
                 </div>
                 <div>
-                    <label for="name">Your email</label><br>
-                    <input type="text" placeholder="your email">
+                    <label class="form-label"  for="name">Your email</label><br>
+                    <input type="text" class="form-input"  placeholder="your email">
                 </div>
                 <div>
-                    <label for="name">Your message</label><br>
-                    <input type="text" placeholder="your message">
+                    <label class="form-label"  for="name">Your message</label><br>
+                    <textarea name="message" id="message" rows="4"></textarea>
                 </div>
-                <button>Send message</button>
+                <button class="form-button">Send message</button>
             </form>
         </div>
+     </div>
     </section>
+    <footer>
+        <nav>
+            <ol>
+                <li>
+                    <a href="#top-section">HOME</a>
+                </li>
+                <li>
+                    <a href="#about-us">ABOUT US</a>
+                </li>
+                <li>
+                    <a href="">SERVICEscd </a>
+                </li>
+                <li>
+                    <a href="#contact-us">CONTACT US</a>
+                </li>
+            </ol>
+        </nav>
+        <H1>Play pad</H1>
+    </footer>
 </body>
 </html>

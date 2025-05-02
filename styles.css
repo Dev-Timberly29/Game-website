@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    font-size:21px;
+}
+}
+/*styling the header */
+header{
+    display: flex;
+    justify-content: center;
+}
+.header-section{
+   background-color:white;
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   margin-top:30px ;
+   padding: 6px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+
+ul a{
+    text-decoration: none;
+    color: black;
+}
+
+ul a:hover{
+    color: #313bef;
+    background-color: rgba(245, 245, 245, 0.825);
+    height: auto;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5%;
+}
+
+.logo{
+    margin-left: 30px;
+    margin-right: 220px;
+    color: blue;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.header-section button{
+    margin-left: 220px;
+    background-color: #5C62D6;
+    border: none;
+    color: white;
+    padding: 2px;
+    width: 162px;
+    height: 40px;
+}
+/*styling the top section */
+#top-section{
+    margin-top: 80px;
+     background-color: white;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     height: auto;
+}
+
+.right-grid img{
+    width: 700px;
+    height: 400px;
+    object-fit: cover;
+    margin-right:40px ;
+}
+
+.left-grid{
+   margin-left: 200px;
+}
+.left-grid button{
+    background-color: #5C62D6;
+    border: none;
+    color: white;
+    padding: 2px;
+    width: 162px;
+    height: 40px;
+    margin-top: 30px;
+}
+.first-paragraph{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.second-paragraph{
+    margin-top: 40px;
+}
+ /*styling the second seciton*/
+.featured-games{
+    justify-content: center;
+    margin-top: 90px;
+    height: auto;
+}
+
+.section_title{
+   font-weight: bold;
+   font-size: 2rem;
+   margin-bottom: 10px;
+   margin-left: 200px;
+}
+
+.card img{
+    width: 300px;
+    height: 300px;
+}
+.cards{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+
+.card{
+    border: 1px solid  #5C62D6 ;
+    width: 300px;
+    height:510px;
+}
+.card h4{
+   font-weight: bold;
+   padding: 12px;
+} 
+.card p{
+    padding: 12px;
+}
+.card a{
+    margin-left: 7px;
+    margin-top: 7px;
+    color: blue;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+
+.card-view{
+    background-color: #5C62D6;
+    padding: 24px;
+    text-align: center;
+    margin-top: 90px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+/*styling the about section*/
+#about-us{
+   padding-left: 200px;
+   height: auto;
+   padding-right: 40px;
+}
+
+.about-us h2{
+    margin-top:90px ;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.About-us-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+#left-grid img{
+    width: 400px;
+    height: 400px;
+}
+.first-text{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.second-text{
+    margin-bottom: 30px;
+}
+.contact-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+ .second-grid{
+    background-color: #5C62D6;
+    width: 530px;
+     height: auto;
+ }   
+
+ /*styling the contact section*/
+ #contact-us{
+    padding-left: 200px;
+    padding-right: 40px;
+    padding-top: 90px;
+    height: auto;
+ }
+ .first-grid h2{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 40px;
+    margin-bottom: 30px;
+ } 
+
+ .second-grid{
+    background-color: #b8bcf9;
+    padding-left: 30px;
+    padding-top: 70px;
+    width: 540px;
+    height: auto;
+ }
+
+ .form-input{
+    width: 90%;
+    padding: 20px;
+    margin-bottom: 40px;
+ }
+ textarea{
+    width: 90%;
+    height: 150px;
+    margin-bottom: 40px;
+ }
+ .form-button{
+    width: 90%;
+    padding: 20px;
+    color: white;
+    background-color: #4d55ee;
+    border: none;
+    margin-bottom: 40px;
+    font-size: 1rem;
+ }
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 35px 35px;
+    margin-top: 90px;
+    padding-left: 50px;
+}
+ol{
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+ol a{
+    color: white;
+    text-decoration: none;
+} 
+ol a:hover{
+    color: #2f39f5;
+}
+footer h1{
+    color: white;
+    font-size: 2rem;
+}

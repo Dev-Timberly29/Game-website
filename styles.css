@@ -42,9 +42,14 @@ ul a:hover{
     padding: 5px;
     border-radius: 5%;
 }
+ 
+  ul a:active{
+    color: #b8bcf9;
+    background-color: blue;
+  } 
 
 .logo{
-    margin-left: 30px;
+    margin-left: 40px;
     margin-right: 220px;
     color: blue;
     font-weight: bold;
@@ -52,12 +57,17 @@ ul a:hover{
 }
 .header-section button{
     margin-left: 220px;
-    background-color: #5C62D6;
+    background-color: #6d72d9;
     border: none;
     color: white;
     padding: 2px;
     width: 162px;
     height: 40px;
+    cursor: pointer;
+}
+.header-section button:hover{
+    color: #5058f8b6;
+    background-color: #232ef8;
 }
 /*styling the top section */
 #top-section{
@@ -86,6 +96,7 @@ ul a:hover{
     width: 162px;
     height: 40px;
     margin-top: 30px;
+    cursor: pointer;
 }
 .first-paragraph{
     font-size: 2rem;
@@ -114,7 +125,7 @@ ul a:hover{
 }
 .cards{
     display: flex;
-    gap: 60px;
+    gap: 90px;
     justify-content: center;
 }
 
@@ -136,6 +147,7 @@ ul a:hover{
     color: blue;
     padding: 12px;
     margin-bottom: 20px;
+    text-decoration: none;
 }
 
 .card-view{
@@ -149,6 +161,7 @@ ul a:hover{
 
 /*styling the about section*/
 #about-us{
+   padding-top: 80PX;
    padding-left: 200px;
    height: auto;
    padding-right: 40px;
@@ -158,7 +171,7 @@ ul a:hover{
     margin-top:90px ;
     font-weight: bold;
     font-size: 2rem;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
 }
 
 .About-us-grid{
@@ -167,6 +180,7 @@ ul a:hover{
     justify-content: center;
 }
 #left-grid img{
+    margin-top: 30px;
     width: 400px;
     height: 400px;
 }
